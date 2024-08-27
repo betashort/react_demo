@@ -7,20 +7,18 @@ const Header = () => {
   const urls = Urls;
   return (
     <>
-    <BrowserRouter>
     <h2>βshortのホームページ</h2>
     <nav>
     <ul>
       {urls.map((url) => {
         return (
           <li key={url.title}>
-            <Link to={url.path}> {url.title}</Link>
+            <a href={url.path}> {url.title}</a>
           </li>
         )
       })}
     </ul>
     </nav>
-    </BrowserRouter>
     </>
   )
 };
