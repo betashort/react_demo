@@ -13,6 +13,11 @@ npx create-react-app . --template typescript
 ```bash
 npm install axios
 ```
+### uuid
+
+```bash
+npm i uuid
+```
 
 ### tailwind css
 
