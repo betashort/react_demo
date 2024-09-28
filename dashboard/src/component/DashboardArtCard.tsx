@@ -1,12 +1,13 @@
 import React, { FC } from "react";
 import { IPageUrl } from "../utils/interface/pageurl";
+import { Link } from "react-router-dom";
 
-function DashboardArtCard(pageUrl:IPageUrl){
+function DashboardArtCard(pageUrl: IPageUrl) {
   return (
-    <div className=" bg-slate-500">
-      {pageUrl.title}
-      {pageUrl.path}
-      aaaaa
+    <div className="card">
+      <button>
+        <Link to={pageUrl.path} className="hover:font-bold">{pageUrl.title}</Link>
+      </button>
     </div>
   );
 }
