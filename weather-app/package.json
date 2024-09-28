@@ -43,7 +43,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.13"
-  },
-
-  "homepage": "https://betashort.github.io/react_demo/"
+  }
 }
