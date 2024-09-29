@@ -14,10 +14,10 @@ function App() {
     <Header />
     <div className='w-full h-svh'>
       <Routes>
-        <Route path="/react-demo" element= {<DashboardPage />} />
-        <Route path="/react-demo/todo-app" element={ <ToDoAppPage />} />
-        <Route path='/react-demo/note-app' element={ <NoteAppPage />} />
-        <Route path='/react-demo/weather-app' element={ <WeatherAppPage />} />
+        <Route path="/react_demo" element= {<DashboardPage />} />
+        <Route path="/react_demo/todo-app" element={ <ToDoAppPage />} />
+        <Route path='/react_demo/note-app' element={ <NoteAppPage />} />
+        <Route path='/react_demo/weather-app' element={ <WeatherAppPage />} />
       </Routes>
     </div>
     <Footer />
