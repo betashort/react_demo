@@ -4,7 +4,7 @@ import { PAGEURLS } from "../utils/const/PAGEURLS";
 
 function Header() {
   const [openMenu, setOpenMunu] = useState(false);
-  const toggleMunu = () => {
+  const toggleMenu = () => {
     setOpenMunu(!openMenu);
   };
 
@@ -20,7 +20,7 @@ function Header() {
          * humberger munu for mobile
          */}
         <div className="md:hidden">
-          <button onClick={toggleMunu} className="z-20 space-y-2 m-2 relative" >
+          <button onClick={toggleMenu} className="z-20 space-y-2 m-2 relative" >
             <div
               className={
                 openMenu
